@@ -52,18 +52,27 @@
                     <div class="menu-wrap">
                         <div class="layout-medium">
                             <div class="social-container">
-                                <a class="social-link" target="_blank" href="https://twitter.com/CyrilQ_Junior">
+                                {{ with .Site.Params.twitter }}
+                                <a class="social-link" target="_blank" href="{{ . }}">
                                     <img src="/images/twitter.svg" alt="Twitter Profile">
                                 </a>
-                                <a class="social-link" target="_blank" href="https://linkedin.com/in/cyriljnr">
-                                    <img src="/images/linkedin.svg" alt="LinkedIn Profile">
-                                </a>
-                                <a class="social-link" target="_blank" href="https://github.com/cyrilselasi">
-                                    <img src="/images/github.svg" alt="Github Profile">
-                                </a>
-                                <a class="social-link" target="_blank" href="https://www.instagram.com/cyriljnr/">
+                                {{ end }}
+                                {{ with .Site.Params.instagram }}
+                                <a class="social-link" target="_blank" href="{{ . }}">
                                     <img src="/images/instagram.svg" alt="Instagram Profile">
                                 </a>
+                                {{ end }}
+                                {{ with .Site.Params.linkedin }}
+                                <a class="social-link" target="_blank" href="{{ . }}">
+                                    <img src="/images/linkedin.svg" alt="LinkedIn Profile">
+                                </a>
+                                {{ end }}
+                                {{ with .Site.Params.github }}
+                                <a class="social-link" target="_blank" href="{{ . }}">
+                                    <img src="/images/github.svg" alt="Github Profile">
+                                </a>
+                                {{ end }}
+
                             </div>
                         </div>
                     </div>
