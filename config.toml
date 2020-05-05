@@ -1,0 +1,15 @@
+baseURL = "http://cyriljunior.com/"
+languageCode = "en-us"
+title = "Charles Cyril Nettey – Software Enthusiast, Advocate for Disruptive Innovation"
+subtitle = "Software Enthusiast, Advocate for Disruptive Innovation"
+[params]
+    copyright = "COPYRIGHT © CHARLES CYRIL NETTEY JNR"
+    principle = "Seek first to understand,<br>Then to be understood."
+    tldr = "Charles Cyril Nettey<br>Software Engineer"
+    email = "cyrilselasi@ymail.com"
+    phone = "+86 130 4142 9770"
+    linkedin = "https://linkedin.com/in/cyriljnr"
+    twitter = "https://twitter.com/CyrilQ_Junior"
+    instagram = "https://instagram.com/cyriljnr"
+    github = "https://github.com/cyrilselasi"
+disableKinds = ["taxonomy", "taxonomyTerm"]

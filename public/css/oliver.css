@@ -1,0 +1,324 @@
+
+/* OLIVER STYLE */
+
+
+/* HEADER */	
+.is-menu-bar .menu-wrap {
+	border-style: solid; border-color: #333; border-width: 8px 0 2px;
+	}
+.is-menu-top .menu-wrap,
+.is-menu-bar .cloned .menu-wrap {
+	border-top: 0;
+	}
+.is-menu-top .header-wrap {
+	border-bottom: 2px solid #eee;
+	}
+.is-menu-top .menu-wrap,
+.is-header-small .header-wrap,
+.is-header-row .header-wrap,
+.is-menu-bar .cloned .menu-wrap {
+	border-bottom: 8px solid #333;
+	}
+.site-header .site-description {
+    margin-top: 10px; font-size: 13px; letter-spacing: .04em; color: inherit;
+	}
+	
+
+/* FOOTER */
+.site-footer {
+	border-top: 6px solid #333; margin-bottom: 100px;
+	}
+.site-footer .site-info {
+	font-size: 11px; letter-spacing: 4px; text-transform: uppercase; margin: 0 auto; border-top: 1px solid #f7f7f7;
+	}
+.footer-subscribe label:not(.error) {
+	font-size: 14px;
+	}
+.footer-subscribe h3:after {
+    position: static; font-size: 24px; margin-top: -10px; margin-left: 10px; margin-right: 0; color: #333;
+	}
+.site-info i {
+	color: inherit;
+	}
+.footer-widgets a.social-link {
+    border: 0; width: 26px; line-height: 26px; margin-right: 0; color: #444; font-size: 13px;
+	}
+
+
+/* BLOG */
+.entry-title {
+	line-height: 1.5;
+	}
+.entry-meta span:not(.cat-links) a {
+	letter-spacing: .06em; color: inherit; border-bottom: 1px dotted #ccc; 
+	}
+.entry-meta a, 
+.entry-meta time {
+	text-transform: none;
+	}
+.entry-meta span:not(.cat-links):not(.entry-like) a:hover, 
+.blog-stream .entry-title a:hover, 
+.comment-meta a:hover, 
+.comment-reply-link:hover, 
+.navigation a:hover {
+    color: #000; background-color: #f7f7f7;
+	}
+.post-wrap .entry-meta span:not(.cat-links) a {
+	border-bottom: none; 
+	}
+.post-thumbnail .entry-meta a {
+	font-size: 12px;
+	}
+.cat-links a {
+	text-transform: uppercase;
+	}
+.blog-stream .more-link {
+	font-size: 14px; text-transform: none;
+	}
+.blog-stream:not(.shop-grid):not(.portfolio-grid) .featured-image:hover > a:first-of-type:before {
+	opacity: 0;
+	}
+.entry-title i {
+	color: inherit; letter-spacing: 4px;
+	}
+.entry-share-wrap a {
+	text-transform: uppercase;
+	}
+
+/* POST WRAP */
+.post-wrap:before {
+	background-color: #000; opacity: .5;
+	}
+
+/* CATEGORY */
+.entry-title i {
+    font-size: 11px;
+	}
+.category-description {
+    font-size: 15px;
+	}
+
+/* SINGLE POST */
+.is-menu-bottom .top-content-single {
+	margin-top: -2px;
+	}
+.top-content-single .post-header-classic .entry-header {
+	max-width: 760px; margin-left: auto; margin-right: auto;
+	}
+.comment-meta .comment-date,
+.comment-reply-link {
+	font-size: 12px;
+	}
+.comment-meta .fn {
+	font-size: 15px;
+	}
+.related-posts .post-thumbnail .entry-title,
+.related-posts .post-classic .entry-title {
+	font-size: 18px;
+	}
+.entry-share a {
+	font-size: 11px;
+	}
+
+/* NAV SINGLE */
+.nav-single h4 {
+	font-weight: 400;
+	}
+
+/* SHOP */
+div.pp_woocommerce .pp_description, 
+div.pp_woocommerce .pp_nav {
+    font-size: 14px;
+ 	}
+.woocommerce .woocommerce-thankyou-order-received {
+	color: inherit; font-size: 14px; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 3em;
+	}
+.woocommerce-thankyou-order-received:before {
+	color: #333; line-height: 1.2;
+	}
+
+/* PORTFOLIO */
+.filters li a {
+	font-size: 12px;
+	}
+.portfolio-grid .entry-meta {
+	margin-top: 0;	
+	}
+.portfolio-excerpt {
+	text-transform: uppercase; font-size: 11px; letter-spacing: 2px; opacity: 1; color: #bbb;
+	}
+.mfp-title {
+	font-size: 12px;
+	}
+
+/* TYPO */
+blockquote:before {
+    display: block; content: "\201C"; line-height: 1; font-size: 8em; font-family: Georgia,"Times New Roman",Times,serif; position: absolute; left: 0; top: -0.12em; color: #eee; z-index: -1;
+	}
+blockquote cite {
+	letter-spacing: 1px;
+	}
+blockquote cite:before {
+	content: "\2014 "; margin-right: 5px;
+	}
+table {
+	font-size: 15px;
+	}
+dt {
+	font-size: 13px; text-transform: uppercase; border-bottom: 3px solid #111;
+	}
+pre {
+    font-size: 14px;
+	}
+hr {
+    border-bottom: 5px solid #f7f7f7;
+	}
+
+/* FORMS */
+label {
+	letter-spacing: 2px; font-size: 12px;
+	}
+label.error {
+	font-size: 11px;
+	}
+input[type=submit], input[type=button], button, a.button {
+	font-size: 12px;
+	}
+.widget input[type=submit], .widget input[type=button], .widget button, .widget a.button {
+	font-size: 12px;
+	}
+
+/* SIDEBAR */
+.widget_mc4wp_form_widget {
+	padding: 8px;
+	}
+.sidebar .mc4wp-form {
+	background: #fff;
+	}
+.sidebar .mc4wp-form label {
+	font-size: 12px; letter-spacing: .05em;
+	}
+.tptn_posts_widget img {
+    border-radius: 50%;
+	}
+.tptn_title {
+	font-size: 15px;
+	}
+
+/* NAVIGATION */
+.navigation a {
+    font-size: 12px;
+	}
+
+/* SHORTCODES */
+.toggle h4 {
+    font-size: 16px; font-weight: 400; text-transform: none; letter-spacing: 0;
+	}
+.tab-content,
+.toggle-content {
+    font-size: 17px;
+}
+html a.social-link {
+	border: 1px solid #eee; line-height: 38px;
+	}
+.service p:not(:first-child) {
+	font-size: 15px; color: #999; opacity: 1;
+	}
+.fun-fact h4 {
+	font-weight: 400; line-height: 1.7;
+	}
+html a.social-link:hover {
+	background: #222;
+	}
+.event h6 {
+    font-weight: 400; text-transform: none;
+	}
+.event h5 {
+    font-weight: 400;
+	}
+.event h4 {
+	font-size: 17px;
+	}
+.skill-unit h4 {
+    opacity: 1;
+	}
+.skill-unit .bar .progress span {
+	top: -16px; font-size: 13px; font-weight: bold; line-height: 28px; user-select: none;
+	}
+.event:before {
+	bottom: 0;
+	}
+.event h2 {
+	font-size: 1.4em;
+	}
+
+/* IMAGE CAPTION */
+.wp-caption-text {
+    font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: #bbb;
+	}
+
+/* 404 */
+.http-alert h1 {
+	font-size: 4em;
+	}
+.http-alert p {
+	text-transform: uppercase; font-size: 13px; letter-spacing: 2px;
+	}
+	
+
+/* TABLETS */
+@media screen and (min-width: 768px) { 
+	
+	h2 {
+		font-size: 1.6em;
+		}
+	.format-quote blockquote {
+		font-size: 1.8em;
+		}
+	.comment-content p {
+		font-size: 15px;
+		}
+	.blog-simple .day {
+		font-size: 40px;
+		}
+	.blog-simple .month {
+		color: #ccc; font-size: 12px;
+		}
+	
+	/* SHORTCODES */
+	.testo p,
+	.event p {
+		font-size: 15px;
+		}
+}
+			
+/* DESKTOPS */
+@media screen and (min-width: 992px) { 
+	
+	/* HEADER */
+	.nav-menu ul li {
+		margin: 0 10px;
+		}
+		
+	/* SHOP */
+	.woocommerce .summary p,
+	.woocommerce .wc-tab {
+		font-size: 15px;
+		}
+	.woocommerce .product_meta {
+		font-size: 11px;
+		}
+	.tagged_as a {
+		font-size: 11px !important;
+		}
+	
+	/* BLOG LIST */
+	.blog-list .featured-image {
+		padding-top: 53%;
+		}
+	
+	.navigation, .pagination, .page-links {
+		margin: 5em 0;
+		}
+		
+}

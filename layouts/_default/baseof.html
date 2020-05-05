@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-US"
+      class="no-featured-area is-body-full-width is-single-post-title-default is-post-title-align-center is-post-media-overflow is-blog-text-align-center is-meta-with-icons is-menu-fixed-width is-menu-sticky is-menu-smart-sticky is-sidebar-right is-sidebar-sticky is-sidebar-align-left is-widget-title-align-left is-widget-underline is-footer-subscribe-light is-footer-widgets-align-left is-footer-boxed is-menu-bottom is-menu-bar is-header-light is-header-fixed-width is-header-parallax-no is-menu-align-center is-menu-light is-submenu-dark is-submenu-align-center is-menu-uppercase is-featured-area-fixed is-slider-buttons-center-margin is-slider-buttons-rounded is-slider-buttons-dark is-slider-title-default is-slider-parallax-no is-slider-title-none-uppercase is-slider-more-link-show is-slider-more-link-border-bottom is-slider-text-align-left is-slider-v-align-bottom is-slider-h-align-left is-link-box-title-default is-link-box-title-transform-none is-link-box-text-align-center is-link-box-v-align-center is-link-box-parallax-no is-intro-align-center is-intro-text-dark is-intro-parallax-no is-more-link-border-bottom-dotted is-about-author-minimal is-related-posts-parallax-no is-related-posts-fixed is-share-links-minimal is-tagcloud-minimal is-nav-single-rounded is-nav-single-no-animated is-comments-minimal is-comments-image-rounded is-comment-form-minimal js_active  vc_desktop  vc_transform  vc_transform  loaded menu-invisible menu-detached"
+      data-title-ratio="0.3" data-link-box-title-ratio="0.5" data-blockbyte-bs-uid="32440">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{ $title := site.Title }}
+    {{ if not .IsHome }}
+    {{ $title = printf "%s | %s" .Title site.Title }}
+    {{ end }}
+    <title>
+        {{ $title }}
+    </title>
+    <link rel="stylesheet" id="oliver-shortcodes-css" href="/css/shortcodes.css" type="text/css" media="all">
+    <link rel="stylesheet" id="normalize-css" href="/css/normalize.css" type="text/css" media="all">
+    <link rel="stylesheet" id="bootstrap-css" href="/css/bootstrap.css" type="text/css" media="all">
+    <link rel="stylesheet" id="oliver-main-css" href="/css/main.css" type="text/css" media="all">
+    <link rel="stylesheet" id="oliver-768-css" href="/css/768.css" type="text/css" media="all">
+    <link rel="stylesheet" id="oliver-992-css" href="/css/992.css" type="text/css" media="all">
+    <link rel="stylesheet" id="oliver-oliver-css" href="/css/oliver.css" type="text/css" media="all">
+    <link rel="stylesheet" id="js_composer_front-css" href="/css/js_composer.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="oliver-inline-css" href="/css/oliver-inline.css" type="text/css" media="all">
+
+    <link rel="canonical" href="{{ site.BaseURL }}">
+    <link rel="shortlink" href="{{ site.BaseURL }}">
+    <link rel="icon" href="/images/cropped-favi-32x32.png" sizes="32x32">
+    <link rel="icon" href="/images/cropped-favi-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="/images/cropped-favi-180x180.png">
+
+    <meta name="msapplication-TileImage" content="/images/cropped-favi-270x270.png">
+</head>
+<body class="home page-template-default page page-id-2005 wp-custom-logo wpb-js-composer js-comp-ver-5.4.5 vc_responsive">
+<div id="page" class="hfeed site">
+
+    <header id="masthead" class="site-header" role="banner">
+        <div class="header-wrap" data-parallax-video="">
+            <div class="header-wrap-inner">
+                <div class="site-branding">
+                    <h1 class="site-title">
+                        <a href="/" rel="home">
+                            <span class="screen-reader-text">Charles Cyril Nettey</span>
+                            <img alt="Charles Cyril Nettey" src="/images/logo.svg">
+                        </a>
+                    </h1>
+                    <p class="site-description selectionShareable">
+                        Software Enthusiast, Advocate for Disruptive Innovation
+                    </p>
+                </div>
+                <nav id="site-navigation" class="main-navigation site-navigation original" role="navigation">
+                    <div class="menu-wrap">
+                        <div class="layout-medium">
+                            <div class="social-container">
+                                <a class="social-link" target="_blank" href="https://twitter.com/CyrilQ_Junior">
+                                    <img src="/images/twitter.svg" alt="Twitter Profile">
+                                </a>
+                                <a class="social-link" target="_blank" href="https://linkedin.com/in/cyriljnr">
+                                    <img src="/images/linkedin.svg" alt="LinkedIn Profile">
+                                </a>
+                                <a class="social-link" target="_blank" href="https://github.com/cyrilselasi">
+                                    <img src="/images/github.svg" alt="Github Profile">
+                                </a>
+                                <a class="social-link" target="_blank" href="https://www.instagram.com/cyriljnr/">
+                                    <img src="/images/instagram.svg" alt="Instagram Profile">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+</div>
+<div id="main" class="site-main">
+    {{ block "main" . }}{{ end }}
+</div>
+<footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="footer-widgets widget-area">
+        <div class="layout-medium">
+            <div class="row">
+                <div class="col-sm-6 col-lg-3">
+                    {{ with .Site.Params.tldr }}
+                    <aside id="text-3" class="widget widget_text"><h3 class="widget-title"><span>TL;DR</span></h3>
+                        <div class="textwidget">
+                            <p class="selectionShareable">{{. | safeHTML }}</p>
+                        </div>
+                    </aside>
+                    {{ end }}
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    {{ if and (isset .Site.Params "phone") (isset .Site.Params "email") }}
+                    <aside id="text-4" class="widget widget_text"><h3 class="widget-title"><span>Connect</span></h3>
+                        <div class="textwidget">
+                            <p class="selectionShareable">
+                                {{ with .Site.Params.email }}
+                                <a href="mailto:{{.}}">{{.}}</a><br>
+                                {{end}}
+                                {{ with .Site.Params.phone }}
+                                <a href="telto:{{.}}">{{.}}</a>
+                                {{ end }}
+                            </p>
+                        </div>
+                    </aside>
+                    {{ end }}
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    {{ with .Site.Params.principle }}
+                    <aside id="text-5" class="widget widget_text"><h3 class="widget-title"><span>Principle</span>
+                    </h3>
+                        <div class="textwidget">
+                            <p class="selectionShareable">{{. | safeHTML}}</p>
+                        </div>
+                    </aside>
+                    {{ end }}
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    {{ with .Site.Params.twitter }}
+                    <aside id="oliver_widget_social_media_icon-7" class="widget widget_oliver_widget_social_media_icon">
+                        <a class="social-link" target="_blank" href="{{.}}">
+                            <img src="/images/twitter.svg" alt="Twitter Profile">
+                        </a>
+                    </aside>
+                    {{ end }}
+                    {{ with .Site.Params.instagram }}
+                    <aside id="oliver_widget_social_media_icon-8" class="widget widget_oliver_widget_social_media_icon"
+                    ><a class="social-link" target="_blank" href="{{.}}">
+                        <img src="/images/instagram.svg" alt="Instagram Profile">
+                    </a>
+                    </aside>
+                    {{ end }}
+                    {{ with .Site.Params.linkedin}}
+                    <aside id="oliver_widget_social_media_icon-9" class="widget widget_oliver_widget_social_media_icon">
+                        <a class="social-link" target="_blank" href="{{.}}">
+                            <img src="/images/linkedin.svg" alt="LinkedIn Profile">
+                        </a>
+                    </aside>
+                    {{end}}
+                    {{ with .Site.Params.github }}
+                    <aside class="widget widget_oliver_widget_social_media_icon">
+                        <a class="social-link" target="_blank" href="{{.}}">
+                            <img src="/images/github.svg" alt="GitHub Profile">
+                        </a>
+                    </aside>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="site-info">
+        <div class="textwidget"><p class="selectionShareable">COPYRIGHT © CHARLES CYRIL NETTEY JNR</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

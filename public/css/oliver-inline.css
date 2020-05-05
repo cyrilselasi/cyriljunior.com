@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.nav-menu, .entry-meta, .owl-buttons, .more-link, label, input[type=submit], input[type=button], button, .button, .page-links, .navigation, .entry-title i, .site-info {
+    font-family: 'Karla';
+}
+
+.widget-title {
+    font-family: 'Karla';
+}
+
+h1, .entry-title, .footer-subscribe h3, .widget_categories ul li, .widget_recent_entries ul li a, .widget_pages ul li, .widget_nav_menu ul li, .widget_archive ul li, .widget_most_recommended_posts ul li a, .widget_calendar table caption, .tptn_title, .nav-single a {
+    font-family: 'Coustard';
+}
+
+h2, h3, h4, h5, h6, blockquote, .tab-titles {
+    font-family: 'Coustard';
+}
+
+.slider-box .entry-title {
+    font-family: 'Coustard';
+}
+
+body, input, textarea, select, button {
+    font-family: 'Karla';
+}
+
+.link-box .entry-title {
+    font-family: 'Coustard';
+}
+
+@media screen and (min-width: 992px) {
+    .blog-regular .entry-title {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .blog-small .entry-title {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    h1 {
+        font-size: 48px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .nav-menu > ul {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .blog-stream .entry-content {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .blog-stream.blog-small .entry-content {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .sidebar {
+        font-size: 14px;
+    }
+}
+
+.widget-title {
+    font-size: 12px;
+}
+
+@media screen and (min-width: 992px) {
+    .nav-menu ul ul {
+        font-size: 11px;
+    }
+}
+
+.entry-meta {
+    font-size: 12px;
+}
+
+h1, .entry-title, .footer-subscribe h3 {
+    font-weight: 400;
+}
+
+h2, h3, h4, h5, h6, blockquote, .comment-meta .fn {
+    font-weight: 400;
+}
+
+.widget-title {
+    font-weight: 700;
+}
+
+@media screen and (min-width: 992px) {
+    .nav-menu > ul {
+        font-weight: 700;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .nav-menu > ul {
+        letter-spacing: 1px;
+    }
+}
+
+.widget-title {
+    letter-spacing: 6px;
+}
+
+@media screen and (min-width: 992px) {
+    html {
+        line-height: 1.7;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .site-header .site-title img {
+        max-height: 140px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .site-branding {
+        padding: 70px 0;
+    }
+}
+
+body {
+    color: #222222;
+}
+
+.site .footer-subscribe {
+    background: #ffffff;
+}
